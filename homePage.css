@@ -1,0 +1,21 @@
+table{
+    width:50%;
+    margin: 0 auto;
+    text-align:center;
+    border:2px solid black;
+}
+
+#overallDiv{
+    width:75%;
+    margin:0 auto;
+}
+
+#logoImage{
+    margin:0 auto;
+    display:block;
+}
+
+#buttonDiv{
+    text-align:center;
+    margin-bottom:2em;
+}

@@ -1,0 +1,42 @@
+#menuTable{
+    width:50%;
+}
+
+img{
+    height:auto;
+    max-width:75%;
+}
+
+img:hover{
+    background: rgb(100, 214, 100);
+    cursor: pointer;
+}
+
+h3{
+    text-align:center;
+}
+
+
+#steakType{
+    margin-bottom:2em;
+}
+
+.selectedImage{
+    background:rgb(100, 214, 100);
+}
+
+table{
+    width:50%;
+    margin: 0 auto;
+    text-align:center;
+}
+
+#overallDiv{
+    width:75%;
+    margin:0 auto;
+}
+
+#logoImage{
+    margin:0 auto;
+    display:block;
+}

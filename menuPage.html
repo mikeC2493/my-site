@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Site - Website Structure Exercise</title>
+    <link rel="stylesheet" type="text/css" href="menu.css"/>
+  </head>
+  <body>
+<div id="overallDiv">
+  <img id="logoImage" src="images/WebsiteDesign_Logo.png" />
+<h3>Welcome to Castelli Cooking's Menu!</h3>
+<p>Select an image to view the varieties of that food item that we offer.</p>
+  <table id="mainTable">
+    <tbody>
+        <tr><td>Steak</td><td>Fish</td><td>Chicken</td></tr>
+      <tr><td><img id="cowImage" src="images/WebsiteDesign_Cow.png" onclick="displayTable(this.id)"/></td>
+        <td><img id="fishImage" src="images/WebsiteDesign_Fish.png" onclick="displayTable(this.id)"/>></td>
+    <td><img id="chickenImage" src="images/WebsiteDesign_Chicken.png" onclick="displayTable(this.id)"/></td></tr>
+    </tbody>
+  </table>
+  <div id="steakType">
+    <label for="steak">Select the dropdown menu to view the cuts of steak we offer</label>
+    <select name="steak" id="steak">
+        <option value="filet">Filet Mignon</option>
+        <option value="ribeye">Ribeye</option>
+        <option value="porterhouse">Porterhouse</option>
+        <option value="sirloin">Sirloin</option>
+    </select>
+  </div>
+  <div id="fishType">
+    <label for="fish">Select the dropdown menu to view the types of fish we offer</label>
+    <select name="fish" id="fish">
+        <option value="salmon">Salmon</option>
+        <option value="shark">Shark</option>
+        <option value="tuna">Tuna</option>
+        <option value="tilapia">Tilapia</option>
+    </select>
+  </div>
+  <div id="chickenType">
+    <label for="chicken">Select the dropdown menu to view the types of chicken we offer</label>
+    <select name="chicken" id="chicken">
+        <option value="freeOrganic">Free-range organic</option>
+        <option value="cageOrganic">Caged organic</option>
+        <option value="gmo">GMO</option>
+        <option value="feral">Feral</option>
+    </select>
+  </div>
+  <table id="sideTable">
+    <tbody>
+        <tr><td>Pasta</td><td>Potatoes</td></tr>
+      <tr><td><img src="images/WebsiteDesign_Pasta.png"/></td>
+        <td><img src="images/WebsiteDesign_Potato.png"/></td>
+        <td><img src="images/WebsiteDesign_Vegetable.png"/></td></tr>
+    </tbody>
+  </table>
+  <div id="pastaType">
+    <label for="pasta">Choose from the dropdown menu what type of pasta you want</label>
+    <select name="pasta" id="pasta">
+        <option value="linguine">Linguine</option>
+        <option value="farfalle">Farfalle</option>
+        <option value="spaghetti">Spaghetti</option>
+        <option value="ziti">Ziti</option>
+    </select>
+  </div>
+</div>
+<script type="text/javascript" src="javascript/menu.js"></script>
+  </body>
+</html>
