@@ -6,16 +6,28 @@
     <link rel="stylesheet" type="text/css" href="homePage.css"/>
   </head>
   <body>
+    <div id=containerDiv>
+      <div class="borderDiv"></div>
 <div id="overallDiv">
-  <img id="logoImage" src="images/WebsiteDesign_Logo.png" />
+  <table id="logoTable">
+    <tbody>
+        <tr>
+            <td class="spaceCol"></td>
+            <td id="logoCol"><img id="logoImage" src="images/WebsiteDesign_Logo.png" /></td>
+            <td id="spaceCol"></td>
+        </tr>
+    </tbody>
+</table>
 <p>Welcome to the home page for Castelli's Cooking! You can find our hours of operation
    below and please explore our Story, our Menu, and our Reviews!</p>
    <div id="buttonDiv">
-    <button id="storyBtn" type="button"><a href="storyPage.html">Story</a></button>
-    <button id="menuBtn" type="button"><a href="menuPage.html">Menu</a></button>
-    <button id="Reviews" type="button"><a href="reviewPage.html">Reviews</a></button>
+    <button class="navBtn" id="storyBtn" type="button"><a class="navLink" href="storyPage.html"><span class="buttonTxt">Story</span></a></button>
+    <button class="navBtn"  id="menuBtn" type="button"><a class="navLink" href="menuPage.html">Menu</a></button>
+    <button class="navBtn"  id="Reviews" type="button"><a class="navLink" href="reservationPage.html">Reservations</a></button>
    </div>
-
+<div>
+  <img id="restaurantImage" src="images/WebsiteDesign_Apartment.png"/>
+</div>
   <table id="hrOpTable">
     <thead>
       <tr><th>Days</th><th>Hours of Operation</th></tr>
@@ -30,6 +42,8 @@
       <tr><td>Saturday</td><td>9:00 am to 3:30 pm</td></tr>
     </tbody>
   </table>
+</div>
+<div class="borderDiv"></div>
 </div>
   </body>
 </html>

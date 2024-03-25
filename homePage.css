@@ -5,9 +5,62 @@ table{
     border:2px solid black;
 }
 
+#containerDiv{
+    display:flex;
+    flex-direction:row;
+}
+
+#logoTable{
+    width:100%;
+    border:none;
+}
+
+.spaceCol{
+    width:25%;
+}
+
+#logoCol{
+    width:50%;
+}
+
+#returnCol{
+    width:25%;
+    vertical-align:top;
+    padding-top:.5em;
+    text-align:right;
+}
+
 #overallDiv{
     width:75%;
     margin:0 auto;
+    padding:0 2em 0 2em;
+}
+
+.borderDiv{
+    background:#bfd7ef;
+    width:12.5%;
+}
+
+.navLink{
+    color:black;
+    display:block;
+    text-decoration:none;
+}
+
+.navLink:hover{
+    color:white;
+}
+
+.navBtn{
+    width:10%;
+    height: 2em;
+    border-radius:.3em;
+    background:#bfd7ef;
+    padding-inline:0px;
+}
+
+.navBtn:hover{
+    background:#156082;
 }
 
 #logoImage{
@@ -18,4 +71,9 @@ table{
 #buttonDiv{
     text-align:center;
     margin-bottom:2em;
+}
+
+#restaurantImage{
+    margin:0 auto;
+    display:block;
 }

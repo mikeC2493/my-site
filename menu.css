@@ -8,7 +8,7 @@ img{
 }
 
 img:hover{
-    background: rgb(100, 214, 100);
+    background: #bfd7ef;
     cursor: pointer;
 }
 
@@ -22,7 +22,7 @@ h3{
 }
 
 .selectedImage{
-    background:rgb(100, 214, 100);
+    background:#bfd7ef;
 }
 
 table{
@@ -36,7 +36,23 @@ table{
     margin:0 auto;
 }
 
+.sectionTitle{
+    text-align:center;
+}
+
 #logoImage{
     margin:0 auto;
     display:block;
+}
+
+#mainTable{
+    border:none;
+}
+
+#sideTable{
+    border:none;
+}
+
+#dessertTable{
+    border:none;
 }
