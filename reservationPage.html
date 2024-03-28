@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Site - Website Structure Exercise</title>
+    <link rel="stylesheet" type="text/css" href="homePage.css"/>
+    <link rel="stylesheet" type="text/css" href="reservation.css"/>
+  </head>
+  <body>
+    <div id=containerDiv>
+      <div class="borderDiv"></div>
+<div id="overallDiv">
+  <table id="logoTable">
+    <tbody>
+        <tr>
+            <td class="spaceCol"></td>
+            <td id="logoCol"><img id="logoImage" src="images/WebsiteDesign_Logo.png" /></td>
+            <td id="returnCol"><a id="returnHome" href="index.html">Back to Home page</a></td>
+        </tr>
+    </tbody>
+</table>
+<p>Welcome to the reservation page for Castelli's Cooking! Please provide your name and email address in 
+    the fields below to join the reservation wait list. Once you enter the top 10 spots of the waitlist we will
+     send you an email asking for your preferred reservation date. The email will also include the 
+     address to Castelli's Cooking and the password to use at the door.
+</p>
+   <form id="contactInfoDiv">
+    <p class="formField">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="contact" required /><br/>
+    </p>
+    <p class="formField">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="contact" required /><br/>
+    </p>
+    <p class="formField">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="contact" required /><br/>
+    </p>
+   </form>
+   <div id="submitForm">
+    <button class="reserveBtn"  id="submitBtn" type="button" onclick="clearFields()">Join Waitlist</button>
+    <p id="thankYouNote">Thank you for joining the wait list, see you in 5 years!</p>
+   </div>
+</div>
+<div class="borderDiv"></div>
+</div>
+<script type="text/javascript" src="reservation.js"></script>
+  </body>
+</html>

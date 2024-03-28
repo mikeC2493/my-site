@@ -1,0 +1,41 @@
+#thankYouNote{
+    text-align:center;
+    font-weight:600;
+}
+
+form{
+    display:table;
+    margin:auto;
+    width:50%;
+}
+
+.formField{
+display:table-row;
+}
+
+label{
+    display:table-cell;
+}
+
+input{
+    display: table-cell;
+    width:100%;
+}
+
+#submitForm{
+    text-align:center;
+    margin-top:2em;
+}
+
+#submitBtn{
+    width:10%;
+    height: 2em;
+    border-radius:.3em;
+    background:#bfd7ef;
+    padding-inline:0px;
+}
+
+#submitBtn:hover{
+    background:#156082;
+    cursor:pointer;
+}

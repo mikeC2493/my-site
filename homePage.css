@@ -30,6 +30,10 @@ table{
     text-align:right;
 }
 
+#returnHome:hover{
+font-weight:600;
+}
+
 #overallDiv{
     width:75%;
     margin:0 auto;
